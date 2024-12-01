@@ -12,7 +12,7 @@ elif(num==2):
 else:
     print(n1)
     print(n2)
-    while(count<=num):
+    for i in range(2,num):
         new=n1+n2
         n1=n2
         n2=new
